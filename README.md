@@ -1,7 +1,7 @@
 # Rock Paper Scissors(Python)
 **This repository contains a beginner developed interpretation of the classic "Rock, paper and scissors" game using python.**
 ### Basic programming concepts featured are :
-1. **Infinte loop** (while True) with option to exit by entering: 0
+1. **Infinite loop** (while True) with option to exit by entering: 0
 2. **User input validation**(handles uppercase/lowercase and strips leading or trailing spaces)
 3. **Random module** to simulate randomized computer's choice 
 4. **Score tracking** after each round and overall result at exit
