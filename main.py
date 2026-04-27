@@ -15,14 +15,14 @@ def game():
             elif i==you:
                 print("OVERALL 👔")
             break
-        elif choice not in choices:#elif for independent check and swap(not if)
+        elif choice not in choices:
             print("invalid input")
             continue
         comp =comp_choice()
         print("I choose",comp)
-        result=logic(choice,comp)#no direct because count score
+        result=logic(choice,comp)
         print(result)
-        if "--You won--" in result:#typo bugs risk 
+        if "--You won--" in result:
             you+=1
         elif "--I won--" in result:
             i+=1
